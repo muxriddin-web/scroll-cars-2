@@ -1,0 +1,100 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: #050505;
+    color: #ffffff;
+    font-family: 'Segoe UI', -apple-system, BlinkMacSystemFont, Roboto, sans-serif;
+    overflow-x: hidden;
+}
+
+#scroll-container {
+    position: relative;
+    height: 1200vh; /* Scroll masofasi yetarlicha uzoq va silliq */
+}
+
+.canvas-wrapper {
+    position: sticky;
+    top: 0;
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 1;
+    overflow: hidden;
+}
+
+#car-canvas {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    will-change: transform, filter;
+}
+
+.bg-glow {
+    position: absolute;
+    width: 60vw;
+    height: 60vh;
+    background: radial-gradient(circle, rgba(196, 241, 36, 0.08) 0%, rgba(0,0,0,0) 70%);
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 0;
+    pointer-events: none;
+}
+
+.info-overlay {
+    position: fixed;
+    bottom: 12%;
+    left: 8%;
+    z-index: 10;
+    pointer-events: none;
+}
+
+.info-card {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    opacity: 0;
+    transform: translateY(40px) scale(0.95);
+    transition: all 0.7s cubic-bezier(0.16, 1, 0.3, 1);
+    max-width: 450px;
+    background: rgba(12, 12, 12, 0.75);
+    backdrop-filter: blur(16px);
+    -webkit-backdrop-filter: blur(16px);
+    border-left: 3px solid #c4f124;
+    padding: 28px;
+    border-radius: 0 16px 16px 0;
+    box-shadow: 0 20px 40px rgba(0,0,0,0.6);
+}
+
+.info-card.active {
+    opacity: 1;
+    transform: translateY(0) scale(1);
+}
+
+.info-card span {
+    color: #c4f124;
+    font-size: 0.8rem;
+    font-weight: 700;
+    letter-spacing: 3px;
+    text-transform: uppercase;
+    display: block;
+    margin-bottom: 8px;
+}
+
+.info-card h2 {
+    font-size: 2rem;
+    margin-bottom: 10px;
+    font-weight: 700;
+}
+
+.info-card p {
+    color: #b0b0b0;
+    font-size: 1rem;
+    line-height: 1.6;
+}
