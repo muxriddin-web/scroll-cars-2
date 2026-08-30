@@ -13,7 +13,7 @@ window.addEventListener("resize", resizeCanvas);
 // 1. Rasmlar soni 31 ta  belgilandi
 const frameCount = 31;
 
-// Rasmlar manzilini generatsiya qilish va natural sorting orqali to'g'ri saralash
+// Rasmlar manzilini generatsiya qilish va natural sorting orqali to'g'ri 
 const imageSources = Array.from({ length: frameCount }, (_, i) => `./img/car${i + 1}.jpg`);
 
 imageSources.sort((a, b) => {
