@@ -10,7 +10,7 @@ function resizeCanvas() {
 }
 window.addEventListener("resize", resizeCanvas);
 
-// 1. Rasmlar soni 31 ta  belgilandi
+// 1. Rasmlar soni 31 ta mos belgilandi
 const frameCount = 31;
 
 // Rasmlar manzilini generatsiya qilish va natural sorting orqali to'g'ri 
