@@ -45,7 +45,7 @@ function render() {
     const img = images[carSequence.frame];
     
     if (img && img.complete) {
-        // Ekranga shaklida to'g'ri va proportsional joylashtirish
+        // Ekranga cover shaklida to'g'ri va proportsional joylashtirish
         const hRatio = canvas.width / img.width;
         const vRatio = canvas.height / img.height;
         const ratio = Math.max(hRatio, vRatio);
