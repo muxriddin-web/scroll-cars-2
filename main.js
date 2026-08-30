@@ -60,7 +60,7 @@ function render() {
     }
 }
 
-// 3. Dynamic Scroll & Extended 31-Frame focus Function
+// 3. Dynamic cover Scroll & Extended 31-Frame focus Function
 function initScrollShowcase() {
     // 31 kadr ketma-ketligini scroll-ga o'ta silliq bog'lash
     gsap.to(carSequence, {
