@@ -99,7 +99,7 @@ function initScrollShowcase() {
         // 4-bosqich: Salon va interyerga sho'ng'ish (24-31 kadrlarda maksimal Zoom-In)
         .to(canvas, { scale: 1.75, xPercent: 0, yPercent: -1, duration: 3.5 });
 
-    // Matn kartochkalarining 31 kadrli uzun masofaga moslangani
+    // Matn kartochkalarining 31 kadrli masofaga moslangani
     const cards = [
         { id: '#card-1', start: 0, end: 25 },
         { id: '#card-2', start: 25, end: 50 },
