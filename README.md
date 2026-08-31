@@ -118,10 +118,8 @@ scroll-cars/
 ├── style.css
 ├── script.js
 │
-├── assets/
-│   ├── images/       # Frame sequences for exterior & interior views
+├── images/       # Frame sequences for exterior & interior views
 │
-├── Screenshot_1.jpg
 ├── README.md
 └── LICENSE
 ```
