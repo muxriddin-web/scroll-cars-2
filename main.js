@@ -14,7 +14,7 @@ window.addEventListener("resize", resizeCanvas);
 const frameCount = 31;
 
 // Rasmlar manzilini generatsiya qilish va natural sorting orqali to'g'ri belgilanadi
-const imageSources = Array.from({ length: frameCount }, (_, i) => `./img/car${i + 1}.jpg`);
+const imageSources = Array.from({ length: frameCount }, (_, i) => `./car${i + 1}.jpg`);
 
 imageSources.sort((a, b) => {
     const numA = parseInt(a.match(/\d+/)[0]);
