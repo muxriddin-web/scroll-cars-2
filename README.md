@@ -146,7 +146,7 @@ If you have questions, feedback, or would like to connect:
 
 - **Author:** Muxriddin O'tkirov
 - **GitHub:** [@muxriddin-web] https://github.com/muxriddin-web
-- **Repository:** [scroll-cars] https://github.com/muxriddin-web/scroll-cars-2
+- **Repository:** [scroll-cars-2] https://github.com/muxriddin-web/scroll-cars-2
 
 ---
 
