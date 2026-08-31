@@ -51,7 +51,7 @@ Built with pure HTML, CSS, and vanilla JS — zero heavy frameworks or external 
 ### Clone the Repository
 
 ```bash
-git clone [https://github.com/muxriddin-web/scroll-cars.git](https://github.com/muxriddin-web/scroll-cars.git)
+git clone https://github.com/muxriddin-web/scroll-cars-2.git
 ```
 
 ### Navigate into the Project Directory
