@@ -30,7 +30,7 @@ Built with pure HTML, CSS, and vanilla JS — zero heavy frameworks or external 
 ## 📸 Preview
 
 <div align="center">
-  <a href="https://scroll-car1.netlify.app">
+  <a href="https://scrollcar2.netlify.app">
     <img src="car1.jpg" alt="Scroll Animation Car Demo" width="600"/>
   </a>
   <p><i>Click the preview above to view the live website</i></p>
