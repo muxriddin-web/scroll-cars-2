@@ -57,7 +57,7 @@ git clone https://github.com/muxriddin-web/scroll-cars-2.git
 ### Navigate into the Project Directory
 
 ```bash
-cd scroll-cars
+cd scroll-cars-2
 ```
 
 ### Run the Project
